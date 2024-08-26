@@ -1,0 +1,16 @@
+[package]
+name = "Satay"
+version = "1.0.0"
+authors = []
+
+[addresses]
+satay = "0x08e0501f7c6ce735c1f9c0d2819a30356540a78324471604a3a50c5e875c04d4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

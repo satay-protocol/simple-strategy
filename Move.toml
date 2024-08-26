@@ -1,0 +1,16 @@
+[package]
+name = "simple_strategy"
+version = "1.0.0"
+authors = []
+
+[addresses]
+simple_strategy = "_"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+Echelon = { local = "./interfaces/echelon" }
+Satay = { local = "./interfaces/satay" }
+
+[dev-dependencies]
